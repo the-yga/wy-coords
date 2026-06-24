@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div id="app">
+
+            <header class="header">
+
+                ->
+
+                <div>
+                    <div class="title">Wyvern Studio</div>
+                    <div class="subtitle">Developer Tool</div>
+                </div>
+
+            </header>
+
+
+            <div class="mode-switch">
+
+                <button data-mode="player" class="active">Player</button>
+                <button data-mode="laser">Laser</button>
+
+            </div>
+
+
+            <main class="content">
+
+                <div class="card">
+
+                    <div class="label">Vector2</div>
+                    <div id="vector2" class="value">-</div>
+                    <button data-copy="vector2">COPY</button>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="label">Vector3</div>
+                    <div id="vector3" class="value">-</div>
+                    <button data-copy="vector3">COPY</button>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="label">Vector4</div>
+                    <div id="vector4" class="value">-</div>
+                    <button data-copy="vector4">COPY</button>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="label">Heading</div>
+                    <div id="heading" class="big">0</div>
+
+                </div>
+
+
+                <div id="laserBox">
+
+                    <div class="card">
+
+                        <div class="label">Target</div>
+                        <div id="target" class="value">-</div>
+
+                    </div>
+
+
+                    <div class="grid">
+
+                        <div>TYPE <span id="type">-</span></div>
+                        <div>MODEL <span id="model">-</span></div>
+                        <div>HASH <span id="hash">-</span></div>
+                        <div>DIST <span id="distance">-</span></div>
+
+                    </div>
+
+
+                    <button data-copy="target">COPY TARGET</button>
+
+                </div>
+
+            </main>
+
+
+            <footer class="footer">
+
+                ALT : Toggle Mouse
+                ESC : Close
+
+            </footer>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
