@@ -1,7 +1,7 @@
 # 📍 Wyvern Coords (WCoords)
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" alt="Wyvern Studio" width="100%">
+  <img src="wcoords.png" alt="Wyvern Studio" width="100%">
 </p>
 
 <p align="center">
